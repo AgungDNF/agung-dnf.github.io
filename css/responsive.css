@@ -1,1 +1,55 @@
-
+@media all and (max-width: 1000px) {
+    .bg-profil {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    .bg-pesan {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .bg-kontak {
+        width: 50%;
+        margin-bottom: 50px;
+      }
+    
+    .gambar-judul h1 {
+      font-size: 32px;
+    }
+  }
+  @media all and (max-width: 670px) {
+    .bg-profil {
+      width: 100%;
+    }
+    .bg-pesan {
+        width: 100%;
+    }
+    .bg-kontak {
+        width: 100%;
+    }  
+    .tombol {
+      width: 100%;
+    }
+    
+    .gambar-judul {
+      text-align: center;
+    }
+    
+    /* Tambahkan CSS untuk header-right */
+    .navbar-kanan {
+      display: none;
+    }
+    .menu-icon {
+      display: block;
+      color: rgb(38,44,118);
+    }
+    
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
