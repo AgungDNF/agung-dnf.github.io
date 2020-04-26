@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display: none;
+  }
+header{
+    overflow: hidden;
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.logo{
+    width: 124px;
+    margin-top: 15px;
+}
+.navbar-kiri{
+    float: left;
+}
+.navbar-kanan{
+    float: right;
+    margin-right: -25px;
+}
+.navbar-kanan a{
+    margin-top: 15px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: rgb(38,44,118);
+    font-weight: bold;
+    display: block;
+    float: left;
+    transition: all 0.2s;
+}
+.navbar-kanan a:hover{
+    color: rgb(141,177,220);
+}
+.home-icon{
+    color: white;
+    width: 25px;
+}
+.login{
+    background-color: rgba(225, 7, 7, 0.8);
+    color: white;
+    display: block;
+    padding: 0 30px;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+.login:hover{
+    background-color: rgba(225, 7, 7, 1);
+}
+.gambar-judul{
+    padding: 180px 0 120px 0;
+    background-image: url('../images/bg-header.jpg');
+    background-size: cover;
+    color: white;
+    /*text-align: center;*/
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+}
+.gambar-judul h1{
+    /*opacity: 0.7;*/
+    font-size: 45px;
+    /*letter-spacing: 3px;*/
+    margin-bottom: 20px;
+    
+}
+.gambar-judul h2{
+    font-size: 40px;
+}
+.tombol-mulai{
+    margin: 20px 0;
+}
+.tombol{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+.tombol:hover{
+    opacity: 1;
+}
+.mulai{
+    background-color: rgb(225, 7, 7);
+    text-shadow: none;
+}
+.fa{
+    margin-right: 5px;
+}
+.bg-profile{
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.bg-pesan{
+    padding-bottom: 80px;
+    background-color: #eee;
+    text-align: center;
+}
+.bg-kontak{
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(38,44,118);
+    padding: 20px 0;
+}
